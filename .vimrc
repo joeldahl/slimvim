@@ -19,11 +19,19 @@ set nolist
 set listchars=tab:>>,trail:-
 set statusline=%F\ %m%r%h%w\ [%{&ff}]\ %y\ %l/%L:%v
 
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-noremap <PageUp> <NOP>
-noremap <PageDown> <NOP>
-noremap <Home> <NOP>
-noremap <End> <NOP>
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
+nnoremap <PageUp> <NOP>
+nnoremap <PageDown> <NOP>
+nnoremap <Home> <NOP>
+nnoremap <End> <NOP>
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+inoremap <PageUp> <NOP>
+inoremap <PageDown> <NOP>
+inoremap <Home> <NOP>
+inoremap <End> <NOP>
